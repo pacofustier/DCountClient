@@ -12,5 +12,15 @@ namespace DCountClientMvc.Controllers
             var workers = await _workerApiService.GetAll();
             return View(workers);
         }
+
+        public async Task<IActionResult> View(int id)
+        {
+            var worker = await _workerApiService.GetById(id);
+            if (worker is null)
+            {
+                return NotFound();
+            }
+            return View(worker);
+        }
     }
 }

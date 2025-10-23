@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DCountClientMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34bf8953da00bda3c2107d1d337391ed6a488b63")]
 [assembly: System.Reflection.AssemblyProductAttribute("DCountClientMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DCountClientMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

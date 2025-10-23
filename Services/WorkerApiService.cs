@@ -16,4 +16,9 @@ public class WorkerApiService
         return await _httpClient.GetFromJsonAsync<List<Worker>>("worker") ?? [];
     }
 
+    public async Task<Worker?> GetById(int id)
+    {
+        return await _httpClient.GetFromJsonAsync<Worker>($"worker/{id}");
+    }
+
 }
